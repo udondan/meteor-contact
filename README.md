@@ -6,7 +6,7 @@ This module will install a link at the bottom of your page. When the user clicks
 
 Simply 3 fields for subject, email and content.
 
-![Screenshot](./docs/screenshot.png)
+![Screenshot](https://github.com/udondan/meteor-contact/raw/master/docs/screenshot.png)
 
 All form elements are styled via [Bootstrap 3](http://getbootstrap.com/).
 

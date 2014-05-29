@@ -11,7 +11,7 @@ Simply 3 fields for subject, email and content.
 All form elements are styled via [Bootstrap 3](http://getbootstrap.com/).
 
 ##Status
-Initial release. Works perfect in Chrome, not yet tested on other browsers. Feel free to test and send feedback or pull requests.
+Initial release. Works perfect in Chrome, Firefox and Safari. Due to lack of a Windows machine not yet tested on IE. Feel free to test and send feedback or pull requests.
 
 ##Installation
 ```

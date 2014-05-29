@@ -54,7 +54,7 @@ The `title` parameter can contain whatever you like. You can place a [Glyphicon]
 {{> contact title='<i class="glyphicon glyphicon-envelope"></i>'}}
 ```
 
-The link is positioned absolute at the bottom center of your page. Make sure surrounding HTML/CSS has no conflicting definitions or override the CSS/LESS definitions to fit your needs.
+The link is positioned absolute at the bottom center of your page. Make sure surrounding HTML/CSS has no conflicting definitions or override the [CSS/LESS definitions](https://github.com/udondan/meteor-contact/blob/master/lib/contact.less) to fit your needs.
 
 ###License
 MIT

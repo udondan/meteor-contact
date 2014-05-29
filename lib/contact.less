@@ -1,0 +1,70 @@
+#contact {
+  position:                   absolute;
+  bottom:                     0;
+  width:                      100%;
+  text-align:                 center;
+  
+  a {
+    margin-bottom:            10px;
+    display:                  inline-block;
+  }
+  
+  form {
+    display:                  none;
+    width:                    400px;
+    margin-left:              auto;
+    margin-right:             auto;    
+    border:                   1px solid #ccc;
+    border-bottom-width:      0;
+    border-top-right-radius:  20px;
+    border-top-left-radius:   20px;
+    padding:                  20px;
+    background:               white;
+    text-align:               left;
+    position:                 relative;
+    overflow:                 hidden;
+    
+    button[type=submit] {
+      
+      span {
+        display:              block;
+      }
+      
+      .glyphicon {
+        height:               14px;
+        display:              none;
+       -webkit-animation:     contact-submit-spin 1s infinite linear;
+       -moz-animation:        contact-submit-spin 1s infinite linear;
+       -o-animation:          contact-submit-spin 1s infinite linear;
+       animation:             contact-submit-spin 1s infinite linear;
+      }
+    }
+  }
+}
+
+@-moz-keyframes contact-submit-spin {
+  from {
+    -moz-transform: rotate(0deg);
+  }
+  to {
+    -moz-transform: rotate(360deg);
+  }
+}
+
+@-webkit-keyframes contact-submit-spin {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@keyframes contact-submit-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

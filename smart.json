@@ -1,0 +1,12 @@
+{
+	"name": "contact",
+	"description": "Contact form + mailer",
+	"homepage": "https://github.com/udondan/meteor-contact",
+	"author": "Daniel Phatthanan <daniel@phatthanan.com>",
+	"version": "0.1.0",
+	"git": "https://github.com/udondan/meteor-contact.git",
+	"packages": {
+		"meteor-nodemailer": "0.1.0",
+		"bootstrap3-less": "0.1.9 "
+	}
+}

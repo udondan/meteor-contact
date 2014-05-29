@@ -1,14 +1,14 @@
-Contact form + mailer for Meteor.
+Contact form + mailer for Meteor
 ===============
 
 
-This module will install a link at the bottom of your page. When the user clicks the link, the contact form will slide up from the bottom.
+This module will install a link at the bottom of your page. When the user clicks the link, the contact form will slide up from the bottom. See demo at http://contact-demo.meteor.com/
 
 Simply 3 fields for subject, email and content.
 
 ![Screenshot](./docs/screenshot.png)
 
-All form elements are styled via Bootstrap.
+All form elements are styled via [Bootstrap 3](http://getbootstrap.com/).
 
 ##Status
 Initial release. Works perfect in Chrome, not yet tested on other browsers. Feel free to test and send feedback or pull requests.

@@ -19,6 +19,12 @@ Initial release. Works perfect in Chrome, Firefox and Safari. Due to lack of a W
 ```
 mrt add contact
 ```
+
+`less` is required. If you haven't added it yet, run
+```
+mrt add less
+```
+
 ##Usage
 This module uses configuration form your [Meteor.settings](http://docs.meteor.com/#meteor_settings):
 

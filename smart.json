@@ -3,7 +3,7 @@
 	"description": "Contact form + mailer",
 	"homepage": "https://github.com/udondan/meteor-contact",
 	"author": "Daniel Phatthanan <daniel@phatthanan.com>",
-	"version": "0.1.5",
+	"version": "0.1.6",
 	"git": "https://github.com/udondan/meteor-contact.git",
 	"packages": {
 		"meteor-nodemailer": {},

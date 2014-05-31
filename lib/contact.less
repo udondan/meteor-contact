@@ -1,70 +1,85 @@
+@bootstrap3-less-root: "/packages/bootstrap3-less";
+@import "@{bootstrap3-less-root}/lib/less/variables.import.less";
+@import "@{bootstrap3-less-root}/lib/less/mixins.import.less";
+@import "@{bootstrap3-less-root}/bootstrap.import.less";
+
 #contact {
-  position:                   absolute;
-  bottom:                     0;
-  width:                      100%;
-  text-align:                 center;
+  position:                    absolute;
+  bottom:                      0;
+  width:                       100%;
+  text-align:                  center;
   
   a {
-    margin-bottom:            10px;
-    display:                  inline-block;
+    margin-bottom:             10px;
+    display:                   inline-block;
   }
   
   form {
-    display:                  none;
-    width:                    400px;
-    margin-left:              auto;
-    margin-right:             auto;    
-    border:                   1px solid #ccc;
-    border-bottom-width:      0;
-    border-top-right-radius:  20px;
-    border-top-left-radius:   20px;
-    padding:                  20px;
-    background:               white;
-    text-align:               left;
-    position:                 relative;
-    overflow:                 hidden;
+    .make-md-column(4);
+    float:                     none !important;
+    display:                   none;
+    margin-left:               auto;
+    margin-right:              auto;
+    border-style:              solid;
+    border-color:              #ccc;
+    border-width:              0;
+    border-top-width:          1px;
+    @media only screen and (min-width: 992px) {
+      border-width:            1px;
+      border-top-right-radius: 20px;
+      border-top-left-radius:  20px;
+    }
+    border-bottom-width:       0;
+    padding:                   20px;
+    background:                white;
+    text-align:                left;
+    position:                  relative;
+    overflow:                  hidden;
     
     button[type=submit] {
       
       span {
-        display:              block;
+        display:               block;
       }
       
       .glyphicon {
-        height:               14px;
-        display:              none;
-       -webkit-animation:     contact-submit-spin 1s infinite linear;
-       -moz-animation:        contact-submit-spin 1s infinite linear;
-       -o-animation:          contact-submit-spin 1s infinite linear;
-       animation:             contact-submit-spin 1s infinite linear;
+        height:                14px;
+        display:               none;
+       -webkit-animation:      contact-submit-spin 1s infinite linear;
+       -moz-animation:         contact-submit-spin 1s infinite linear;
+       -o-animation:           contact-submit-spin 1s infinite linear;
+       animation:              contact-submit-spin 1s infinite linear;
       }
     }
   }
 }
 
+/* spinning button animation */
+
+
 @-moz-keyframes contact-submit-spin {
   from {
-    -moz-transform: rotate(0deg);
+    -moz-transform:            rotate(0deg);
   }
   to {
-    -moz-transform: rotate(360deg);
+    -moz-transform:            rotate(360deg);
   }
 }
 
 @-webkit-keyframes contact-submit-spin {
   from {
-    -webkit-transform: rotate(0deg);
+    -webkit-transform:         rotate(0deg);
   }
   to {
-    -webkit-transform: rotate(360deg);
+    -webkit-transform:         rotate(360deg);
   }
 }
 
 @keyframes contact-submit-spin {
   from {
-    transform: rotate(0deg);
+    transform:                 rotate(0deg);
   }
   to {
-    transform: rotate(360deg);
+    transform:                 rotate(360deg);
   }
 }

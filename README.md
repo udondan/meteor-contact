@@ -15,7 +15,21 @@ If you use [trail](https://atmospherejs.com/package/trail) it will be used for l
 Mails are sent from server. Of course email and password are never exposed to the client.
 
 ##Status
-Initial release. Works perfect in Chrome, Firefox and Safari. Due to lack of a Windows machine not yet tested on IE. Feel free to test and send feedback or pull requests.
+Tested on:
+ - **OS X**
+     - **Chrome** 36.0
+     - **Firefox** 29.0.1
+     - **Safari** 7.0.4
+ - **iOS**
+     - **Chrome** 35.0
+     - **Safari** (Current version as of May 31, 2014 - Not possible to see any version information...)
+     - **Opera Mini** 7.0.5 (Glyphicon of demo is invisible, but that's not a problem with this package)
+     - **Opera Coast** 3.0.2
+ - **Windows 7**
+     - **Internet Explorer** 9.0 (no button animation)
+     - **Safari** 5.1.7
+
+Due to lack of a newer Windows machine not yet tested on IE 9+ or other Win browsers. You're welcome to test and send feedback or pull requests.
 
 ##Installation
 ```

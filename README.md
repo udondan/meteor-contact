@@ -10,7 +10,7 @@ Simply 3 fields for subject, email and content.
 
 All form elements are styled via [Bootstrap 3](http://getbootstrap.com/).
 
-If you use [trail](https://atmospherejs.com/package/trail) it will be used for logging. Otherwise all messages will be simply `console.log`´ed
+If you use [trail](https://atmospherejs.com/package/trail) it will be used for logging. Otherwise all messages will be simply `console.log`´ed.
 
 ##Status
 Initial release. Works perfect in Chrome, Firefox and Safari. Due to lack of a Windows machine not yet tested on IE. Feel free to test and send feedback or pull requests.

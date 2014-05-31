@@ -12,7 +12,7 @@ All form elements are styled via [Bootstrap 3](http://getbootstrap.com/).
 
 If you use [trail](https://atmospherejs.com/package/trail) it will be used for logging. Otherwise all messages will be simply `console.log`´ed.
 
-Mails are sent from server. Of course email and password are never exposed to the client.
+Mails are sent from server. Of course recipient email addresses and any transport options such as mail server or password are never exposed to the client.
 
 ##Status
 Tested on:

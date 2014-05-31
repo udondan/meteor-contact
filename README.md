@@ -66,5 +66,13 @@ The `title` parameter can contain whatever you like. You can place a [Glyphicon]
 
 The link is positioned absolute at the bottom center of your page. Make sure surrounding HTML/CSS has no conflicting definitions or override the [CSS/LESS definitions](https://github.com/udondan/meteor-contact/blob/master/lib/contact.less) to fit your needs.
 
+If the textarea is too small for your needs you can adjust the height. The form height is flexible and will grow with the textarea. 
+```css
+#contact form textarea {
+    height: 400px;
+}
+```
+Maybe consider working with media queries or you end up having too big forms for mobile devices.
+
 ###License
 MIT

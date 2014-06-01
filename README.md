@@ -83,10 +83,17 @@ The link is positioned absolute at the bottom center of your page. Make sure sur
 If the textarea is too small for your needs you can adjust the height. The form height is flexible and will grow with the textarea. 
 ```css
 #contact form textarea {
-    height: 400px;
+  height: 400px;
 }
 ```
 Maybe consider working with media queries or you end up having too big forms for mobile devices.
 
+##Todo:
+ - Option to change all text elements via settings:
+     - Error/success messages
+     - Button text
+     - Form labels
+ - Client side form validation, to prevent roundtrip to server, just to find out form is empty
+
 ###License
-MIT
+[MIT](./LICENSE)

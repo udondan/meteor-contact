@@ -96,4 +96,4 @@ Maybe consider working with media queries or you end up having too big forms for
  - Client side form validation, to prevent roundtrip to server, just to find out form is empty
 
 ###License
-[MIT](./LICENSE)
+[MIT](https://github.com/udondan/meteor-contact/blob/master/LICENSE)

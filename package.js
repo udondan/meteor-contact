@@ -1,6 +1,6 @@
 Package.describe({
   summary: "Contact form + mailer",
-  version: "0.4.0"
+  version: "0.4.0",
   git: "https://github.com/udondan/meteor-contact.git",
 });
 
